@@ -7,7 +7,7 @@ class Product {
     private $host = '127.0.0.1';  
     private $user = 'DionGiannar';  
     private $pass = 'Password1!';  //Normally by configuration file in encrypted mode
-    private $db = 'scrap_db';
+    private $db = 'scrap_db1';
     private $link;  //the amazon url
     private $dom, $xpath; // DOM used by GuzzleHttp
     private $connected; // 0 for connected and 1 for not connectedin http url 
