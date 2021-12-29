@@ -27,10 +27,10 @@ USE `scrap_db1`;
 -- Table structure for table `Product`
 --
 
-DROP TABLE IF EXISTS `Product`;
+--DROP TABLE IF EXISTS `Product`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `Product` (
+/*CREATE TABLE `Product` (
   `ID` bigint unsigned NOT NULL AUTO_INCREMENT,
   `product_id` varchar(20) DEFAULT NULL,
   `title` varchar(200) DEFAULT NULL,
@@ -43,6 +43,7 @@ CREATE TABLE `Product` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `ID` (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+*/
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
