@@ -2,7 +2,6 @@
 // A class for scrapping information
 require "Dom_Connector.php";
 
-
 class Amazon_Product_Scrap {
     
     private $asin="Not Found", $title="Not Found", $offer=NULL, $price=NULL, /* Initialize Page vars */
